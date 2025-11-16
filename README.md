@@ -10,3 +10,17 @@ This CraftBeerPi 4 plugin adds a step that can toggle up to **10 actors in seque
   - Independent delay (in seconds)
 - Executes in a chained sequence:
 
+
+- Non-blocking (async)
+- Uses native CBPi timer display
+
+---
+
+## 📦 Installation
+
+SSH into your Raspberry Pi:
+
+```bash
+cd ~/craftbeerpi4/modules
+git clone https://github.com/mikehenrytts/MultiToggleWithDelay.git
+sudo systemctl restart cbpi
