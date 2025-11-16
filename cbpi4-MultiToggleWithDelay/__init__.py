@@ -136,7 +136,7 @@ class MultiToggleWithDelay(CBPiStep):
         return StepResult.DONE
 
 
-async def setup(cbpi):
+def setup(cbpi):
     cbpi.register_step(
         "Multi Toggle With Delay (10 Actors)",
         MultiToggleWithDelay
