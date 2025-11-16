@@ -137,5 +137,5 @@ class MultiToggleWithDelay(CBPiStep):
 
 
 def setup(cbpi):
-    cbpi.cbpi.plugin.register("Multi Toggle With Delay (10 Actors)",MultiToggleWithDelay)
-    pass
+    cbpi.plugin.register("Multi Toggle With Delay (10 Actors)",MultiToggleWithDelay)
+
