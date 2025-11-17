@@ -22,4 +22,6 @@ This CraftBeerPi 4 plugin adds a step that can toggle up to **10 actors in seque
 In PI terminal, 
 
 pipx runpip cbpi4 install https://github.com/mikehenrytts/MultiToggleWithDelay/archive/main.zip
+
+
 sudo systemctl restart cbpi
