@@ -6,43 +6,43 @@ from cbpi.api.timer import Timer
 
 
 @parameters([
-    Property.Actor(label="Actor01", description="Actor 01 toggled during this step"),
+    Property.Actor(label="Actor01", description="Actor 01"),
     Property.Select(label="toggle_type01", options=["On", "Off"], description="Toggle for Actor01"),
     Property.Number(label="Timer01", description="Delay after Actor01 (seconds)", configurable=True),
 
-    Property.Actor(label="Actor02", description="Actor 02 toggled during this step"),
+    Property.Actor(label="Actor02", description="Actor 02"),
     Property.Select(label="toggle_type02", options=["On", "Off"], description="Toggle for Actor02"),
     Property.Number(label="Timer02", description="Delay after Actor02 (seconds)", configurable=True),
 
-    Property.Actor(label="Actor03", description="Actor 03 toggled during this step"),
+    Property.Actor(label="Actor03", description="Actor 03 toggled"),
     Property.Select(label="toggle_type03", options=["On", "Off"], description="Toggle for Actor03"),
     Property.Number(label="Timer03", description="Delay after Actor03 (seconds)", configurable=True),
 
-    Property.Actor(label="Actor04", description="Actor 04 toggled during this step"),
+    Property.Actor(label="Actor04", description="Actor 04"),
     Property.Select(label="toggle_type04", options=["On", "Off"], description="Toggle for Actor04"),
     Property.Number(label="Timer04", description="Delay after Actor04 (seconds)", configurable=True),
 
-    Property.Actor(label="Actor05", description="Actor 05 toggled during this step"),
+    Property.Actor(label="Actor05", description="Actor 05"),
     Property.Select(label="toggle_type05", options=["On", "Off"], description="Toggle for Actor05"),
     Property.Number(label="Timer05", description="Delay after Actor05 (seconds)", configurable=True),
 
-    Property.Actor(label="Actor06", description="Actor 06 toggled during this step"),
+    Property.Actor(label="Actor06", description="Actor 06"),
     Property.Select(label="toggle_type06", options=["On", "Off"], description="Toggle for Actor06"),
     Property.Number(label="Timer06", description="Delay after Actor06 (seconds)", configurable=True),
 
-    Property.Actor(label="Actor07", description="Actor 07 toggled during this step"),
+    Property.Actor(label="Actor07", description="Actor 07"),
     Property.Select(label="toggle_type07", options=["On", "Off"], description="Toggle for Actor07"),
     Property.Number(label="Timer07", description="Delay after Actor07 (seconds)", configurable=True),
 
-    Property.Actor(label="Actor08", description="Actor 08 toggled during this step"),
+    Property.Actor(label="Actor08", description="Actor 08"),
     Property.Select(label="toggle_type08", options=["On", "Off"], description="Toggle for Actor08"),
     Property.Number(label="Timer08", description="Delay after Actor08 (seconds)", configurable=True),
 
-    Property.Actor(label="Actor09", description="Actor 09 toggled during this step"),
+    Property.Actor(label="Actor09", description="Actor 09"),
     Property.Select(label="toggle_type09", options=["On", "Off"], description="Toggle for Actor09"),
     Property.Number(label="Timer09", description="Delay after Actor09 (seconds)", configurable=True),
 
-    Property.Actor(label="Actor10", description="Actor 10 toggled during this step"),
+    Property.Actor(label="Actor10", description="Actor 10"),
     Property.Select(label="toggle_type10", options=["On", "Off"], description="Toggle for Actor10"),
     Property.Number(label="Timer10", description="Delay after Actor10 (seconds)", configurable=True),
 ])
@@ -137,5 +137,5 @@ class MultiToggleWithDelay(CBPiStep):
 
 
 def setup(cbpi):
-    cbpi.plugin.register("Multi Toggle With Delay (10 Actors)",MultiToggleWithDelay)
+    cbpi.plugin.register("Multi Toggle With Delay",MultiToggleWithDelay)
 
